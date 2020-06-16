@@ -1,4 +1,4 @@
-# Newsweek
+# Conference Page
 A bootstrap clone of the newsweek website
 
 # Screenshot
