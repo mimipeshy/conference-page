@@ -5,29 +5,63 @@
     --font-family: 'Lato',
         sans-serif;
     --white: #fff;
-} 
-a{
+}
+
+a {
     text-decoration: none;
     color: var(--main-color);
 }
-a:hover{
+body{
+    font-family: var(--font-family);
+    
+}
+a:hover {
     text-decoration: none;
     color: var(--main-color);
+}
+
+h1 {
+    font-size: 12px;
 }
 
 .fab,
 .nav-text,
+.top-navbar,
 .event-info h1,
-.event-info h2,
-.event-container p {
+.event-info h2 {
     color: var(--white);
+
+}
+
+.fab,
+.nav-text {
+    padding: .5rem 1rem;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.black-color {
+    color: var(--black);
+}
+
+.white-color {
+    color: var(--white);
+}
+
+.event p,
+.date {
+    font-family: var(--font-family);
 }
 
 .top-navbar {
     background-color: var(--black);
-    justify-content: space-between;
-    width: 100%;
-
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 15px;
 }
 
 .bottom-navbar {
@@ -35,7 +69,6 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1rem;
 }
 
 .logo {
@@ -43,44 +76,32 @@ a:hover{
     width: 40%;
 }
 
-.slider {
-    overflow: hidden;
+.nav-link {
+    font-size: 15px;
+    color: var(--black);
 }
 
-.slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-}
-
-.slider figure img {
-    width: 20%;
-    float: left;
-}
-
-.event-info {
-    top: 10vh;
-    position: absolute;
-}
-
-.event-info h1 {
-    font-size: 1.5rem;
-}
-
-.event-info h2 {
-    font-size: 1.2rem;
+.main-banner {
+    background-color: #fff;
+    min-height: 80vh;
 }
 
 .event-container {
-    /* border: 2px solid var(--grey); */
-    height: 50%;
+    width: 50%;
+    border: 3px solid var(--black);
 }
-.date{
-    text-align: center;
-    padding: 0.5rem;
+
+.about-container {
+    width: 60%;
+    border: 3px solid var(--black);
+    align-items: center;
 }
+
+.date {
+    font-size: 12px;
+
+}
+
 .countdown {
     background-color: var(--black);
     margin: 0 auto;
@@ -88,8 +109,8 @@ a:hover{
     text-align: center;
 }
 
-li,
-H4 {
+.count,
+h4 {
     display: inline-block;
     font-size: 1.2em;
     list-style-type: none;
@@ -104,24 +125,138 @@ li span {
     color: var(--main-color);
 }
 
-h5{
-    font-size: 12px;
-}
 
-.media-body h5{
-    font-size: 20px;;
+.section h1 {
+    font-size: 18px;
 }
 
 .partner-list h2,
 .countdown a,
-.activities h4{
-    color:var(--main-color);
+.activities h4 {
+    color: var(--main-color);
     font-size: 18px;
     text-align: center;
 }
-footer .logo-left img{
+
+.card-columns h1 {
+    font-size: 18px;
+}
+
+.main-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/production/images/steel.png);
+    background-color: #272a31;
+    color: #fff;
+}
+
+.main-program .card {
+    background-color: black;
+    width: 50%;
+    margin: 10px;
+}
+
+.fas {
+    color: var(--main-color);
+}
+
+.round-border {
+    /* border-bottom: 2px solid #ec5242; */
+    width: 5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(236, 82, 66);
+    border-image: initial
+}
+
+.underline {
+    width: 3rem;
+    margin-left: 425px;
+    border: 1px solid var(--main-color);
+}
+
+.guest-title h5 {
+    font-size: 18px;
+}
+
+.small-underline {
+    width: 1.5rem;
+    justify-content: center;
+    border: 1px solid var(--grey);
+}
+
+.guests {
+    font-size: 12px;
+    color: var(--black);
+}
+
+.guest-info h3 {
+    font-size: 14px;
+}
+
+.guest-info p:first-of-type {
+    font-size: 12px;
+    color: var(--main-color);
+    font-style: italic;
+}
+
+.guest-profile {
+    display: flex;
+    justify-content: center;
+}
+
+/* .card {
+    margin: 20px;
+    height: 30vh;
+} */
+
+.tickets-page {
+    background-color: var(--grey);
+    height: 70vh;
+}
+
+.ticket-area {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+button {
+    background-color: var(--main-color);
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: var(--white);
+}
+.border-top{
+    border-top: 3px solid black;
+}
+.logo-box{
+    border:1px solid  #272a31 !important;
+
+}
+.concert-column .card {
+    margin-bottom: .75rem;
+}
+
+.concert-card {
+    max-width: 300px;
+    color: #272a31;
+}
+.card-img-overlay {
+    background: #ec5242;
+    opacity: 0.7;
+}
+footer .logo-left img {
     align-items: left;
     height: 50px;
+}
+
+.back {
+    background-color: var(--black);
+    margin: 0 auto;
+    padding: 0.5rem;
 }
 
 footer .copyright {
@@ -131,65 +266,44 @@ footer .copyright {
     color: #666;
     margin-bottom: 22px;
 }
-@keyframes slider {
-    0% {
-        left: 0;
+
+.partner ul img {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:769px) {
+    .top-navbar {
+        display: none
     }
 
-    20% {
-        left: 0;
+   
+}
+
+@media screen and (min-width:992px){ 
+.container{
+    max-width: 960px;
+}
+@media screen and (min-width:1024px) {
+
+    .main-program,
+    .activities {
+        padding: 65px;
+        align-items: center;
     }
 
-    25% {
-        left: -100%;
-    }
+    .guests {
+        width: 50%;
+        margin-left: 350px;
+        margin-right: 350px;
 
-    45% {
-        left: -100%;
     }
-
-    50% {
-        left: -200%;
-    }
-
-    70% {
-        left: -200%
-    }
-
-    75% {
-        left: -300%;
-    }
-
-    95% {
-        left: -300%;
-    }
-
-    100% {
-        left: -400%;
+    .card-img-overlay {
+        display: block;
     }
 }
 
-@media screen and (max-width:767px) {
-    .nav-toggler {
-        display: inline;
-    }
+/*helper classes*/
+.tc {
+    text-align: center;
 }
-
-@media screen and (max-width: 991px) {
-    .event-info {
-        top: 38vh;
-    }
-}
-
-
-@media screen and(min-width:1024px){
-     .event-info {
-         bottom: 90vh;
-     }
-     .main-program,
-     .activities{
-         padding:65px;
-         align-items: center;
-     }
-     
-} 
