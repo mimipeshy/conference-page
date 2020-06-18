@@ -25,7 +25,13 @@ a:hover {
 h1 {
   font-size: 12px;
 }
-
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .fab,
 .nav-text,
 .top-navbar,
@@ -165,9 +171,14 @@ li span {
 .fas {
   color: var(--main-color);
 }
-
+.border-bottom{
+  border-bottom: 1px solid #272a31;
+}
+.border-right,
+.border-left{
+  border-bottom: 1px solid #272a31;
+}
 .round-border {
-  /* border-bottom: 2px solid #ec5242; */
   width: 5rem;
   border-width: 2px;
   border-style: solid;
@@ -218,14 +229,14 @@ li span {
 
 .tickets-page {
   background-color: var(--grey);
-  height: 70vh;
+  height:70vh;
 }
 
-.ticket-area {
+.wrapper {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
 }
-
 button {
   background-color: var(--main-color);
   padding: 15px;
@@ -261,9 +272,12 @@ button {
 .main-section h1,
 .previous-concerts h1 {
   font-size: 22px;
-  color: var(--black);
 }
-
+ .main-section{
+   background-color: #fff;
+   color: #ec5242;
+   
+ }
 footer .logo-left img {
   align-items: left;
   height: 50px;
