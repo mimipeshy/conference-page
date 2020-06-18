@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f58a22ad21.js" crossorigin="anonymous"></script>
@@ -28,208 +29,201 @@
                 <li><a class="nav-text">Logout</a></li>
             </ul>
         </div>
+        <nav class="bottom-navbar navbar-expand-lg bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo ml-3"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-end navbar-collapse menu" id="navbarNav">
+                <ul class="d-flex p-4">
+                    <li class="nav-item active">
+                        <a class="nav-link round-border" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li> <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="tickets.html">Tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav class="bottom-navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo ml-3"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse justify-content-end navbar-collapse menu" id="navbarNav">
-            <ul class="d-flex p-4">
-                <li class="nav-item active">
-                    <a class="nav-link round-border" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li> <a class="nav-link" href="about.html">About</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="tickets.html">Tickets</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <section class="main-banner container-fluid">
-        <div class="container main-color mt-4 pt-5">
-            <h3>Tukuza Welcomes You !</h3>
-            <h5>A NIGHT OF WORSHIP</h5>
-            <div class="event-container black-color">
-                <p class="p-2 font-weight-bold">Theme: A HEART OF WORSHIP</p>
-                <p class="p-2">Psalm 86:12 - I will give thanks to You, O Lord my God, with all my heart,And
-                    will glorify Your name forever</p>
-                </p>
+    <main class="container-fluid">
+        <section class="main-banner container-fluid">
+            <div class="container main-color mt-4 pt-5">
+                <h3>Welcome To !</h3>
+                <h1 class="font">A NIGHT OF WORSHIP</h1>
+                <div class="event-container black-color">
+                    <p class="p-2 font-weight-bold">Theme: A HEART OF WORSHIP</p>
+                    <p class="p-2">Psalm 86:12 - I will give thanks to You, O Lord my God, with all my heart,And
+                        will glorify Your name forever</p>
+                    </p>
+                </div>
+                <div class="date black-color align-items-left mt-3 mb-3">
+                    <h3>2020.06.28(SUN)</h3>
+                    <P>@Donholm Phase 8, Nairobi Kenya</P>
+                </div>
             </div>
-            <div class="date black-color align-items-left mt-3 mb-3">
-                <h3>2020.06.28(SUN)</h3>
-                <P>@Donholm Phase 8, Nairobi Kenya</P>
+        </section>
+        <!-- <section class="container">
+            <div class="countdown align-self-center">
+                <h4>EVENT COUNTDOWN !!!!</h4>
+                <ul>
+                    <li class="count"><span id="days"></span>Days</li>
+                    <li class="count"><span id="hours"></span>Hours</li>
+                    <li class="count"><span id="minutes"></span>Minutes</li>
+                    <li class="count"><span id="seconds"></span>Seconds</li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <!-- <section class="container">
-        <div class="countdown align-self-center">
-            <h4>EVENT COUNTDOWN !!!!</h4>
-            <ul>
-                <li class="count"><span id="days"></span>Days</li>
-                <li class="count"><span id="hours"></span>Hours</li>
-                <li class="count"><span id="minutes"></span>Minutes</li>
-                <li class="count"><span id="seconds"></span>Seconds</li>
-            </ul>
-        </div> 
-    </section> -->
-    <section class="card-columns main-program px-3 mb-4 mt-4">
-        <div class=" guest-title tc mb-5">
+        </section> -->
+        <section class="card-columns main-program px-3 col-sm-12 mb-4 mt-5">
             <h5>WHAT TO EXPECT</h5>
-            <!-- <div class="underline"></div> -->
-        </div>
-        <div class="d-inline-block articles">
-            <article class="card" style="width: 8rem;">
-                <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0">
-                    </i>
-                 <div class="card-body tc">
-                    <h5 class="main-color">Pray</h5>
-                    <p class="card-text">Spend time and open your heart to God.</p>
-                </div>
-            </article>
-            <article class="card d-inline-block " style="width: 8rem;">
-                <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
-                <div class="card-body tc">
-                    <h5 class="main-color">Dance</h5>
-                    <p class="card-text">Shout for joy to our King Jesus Christ.</p>
-                </div>
-            </article>
-            <article class="card" style="width: 8rem;">
-                <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
-                <div class="card-body tc">
-                    <h5 class="main-color">Pray</h5>
-                    <p class="card-text">Spend time and open your heart to God.</p>
-                </div>
-            </article>
-            <article class="card d-inline-block " style="width: 8rem;">
-                <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
-                <div class="card-body tc">
-                    <h5 class="main-color">Pray</h5>
-                    <p class="card-text">Spend time and open your heart to God.</p>
-                </div>
-            </article>
-        </div>
-        <a href="#">SEE MORE</a>
-    </section>
-    <div class="container tc justify-content-center mt-4 tc">
-        <a href="ticket.html">RESERVE YOUR SPOT NOW!</a>
-    </div>
-
-    <section class=" guests px-3 mb-4 mt-4">
-        <div class=" guest-title tc justify-content-center">
-            <h5>WHO IS COMING?</h5>
-         </div>
-         <div class="underline mb-4"></div>
-        </div>
-        <div class="guest-artists row col-lg-6">
-            <div class="col-12 col-lg-6 ">
-                <article class="guest-profile mb-5">
-                    <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Evelyn Wanjiru</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
+            <div class="articles d-inline-block">
+                <article class="card tc jc" style="width:12rem;">
+                    <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
+                    <div class="card-body tc">
+                        <h5 class="main-color">Pray</h5>
+                        <p class="card-text">Spend time and open your heart to God.</p>
                     </div>
                 </article>
-                <article class="guest-profile mb-5">
-                    <img src="images/img1.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Gloria Muliro</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
+                             
+                <article class="card tc jc" style="width:12rem;">
+                    <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
+                    <div class="card-body tc">
+                        <h5 class="main-color">Pray</h5>
+                        <p class="card-text">Spend time and open your heart to God.</p>
                     </div>
                 </article>
-                <article class="guest-profile mb-5">
-                    <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Evelyn Wanjiru</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
+                <article class="card tc jc" style="width:12rem;">
+                    <i class="fas fa-pray fa-3x card-img-top tc mt-2 mb-0"></i>
+                    <div class="card-body tc">
+                        <h5 class="main-color">Pray</h5>
+                        <p class="card-text">Spend time and open your heart to God.</p>
                     </div>
                 </article>
             </div>
-            <div class="col-12 col-lg-6">
-                <article class="guest-profile mb-5">
-                    <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Evelyn Wanjiru</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
-                    </div>
-                </article>
-                <article class="guest-profile mb-5">
-                    <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Evelyn Wanjiru</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
-                    </div>
-                </article>
-                <article class="guest-profile mb-5">
-                    <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
-                    <div class="guest-info ml-3">
-                        <h3>Evelyn Wanjiru</h3>
-                        <p>Singer/Songwriter</p>
-                        <div class="small-underline"></div>
-                        <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship leader
-                            music
-                            director,
-                            songwriter.</p>
-                    </div>
-                </article>
-            </div>
+            <a href="#">SEE MORE</a>
+        </section>
+        <div class="container tc justify-content-center mt-4 tc">
+            <a href="tickets.html">RESERVE YOUR SPOT NOW!</a>
         </div>
-    </section>
-    <section class="countdown justify-content-center py-4 px-auto">
-        <div class="partner-list mt-4">
-            <h2>PARTNERS</h2>
-            <ul class="d-flex justify-content-center">
-                <li><a href="#"><img src="images/partner.png" alt="partner">
-                    </a></li>
-                <li><a href="#"><img src="images/partner.png" alt="partner">
-                    </a></li>
-                <li><a href="#"><img src="images/partner.png" alt="partner">
-                    </a></li>
 
-            </ul>
-        </div>
-    </section>
+        <section class="guests px-3 mb-4 mt-4 col-sm-12">
+            <div class=" guest-title tc justify-content-center">
+                <h5>WHO IS COMING?</h5>
+            </div>
+           </div>
+            <div class="guest-artists row">
+                <div class="col-12 col-lg-6 ">
+                    <article class="guest-profile mb-5">
+                        <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Evelyn Wanjiru</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                    <article class="guest-profile mb-5">
+                        <img src="images/img1.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Gloria Muliro</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                    <article class="guest-profile mb-5">
+                        <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Evelyn Wanjiru</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <article class="guest-profile mb-5">
+                        <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Evelyn Wanjiru</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                    <article class="guest-profile mb-5">
+                        <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Evelyn Wanjiru</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                    <article class="guest-profile mb-5">
+                        <img src="images/evelyn.jpg" alt="artist" class="guest-img" width="100" height="100">
+                        <div class="guest-info ml-3">
+                            <h3>Evelyn Wanjiru</h3>
+                            <p>Singer/Songwriter</p>
+                            <div class="small-underline"></div>
+                            <p class="font-italic">Evelyn Wanjiru Agundabweni is a Kenyan gospel singer, a worship
+                                leader
+                                music
+                                director,
+                                songwriter.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="countdown justify-content-center py-4 px-auto">
+            <div class="partner-list mt-4">
+                <h2>PARTNERS</h2>
+                <ul class="d-flex justify-content-center">
+                    <li><a href="#"><img src="images/partner.png" alt="partner">
+                        </a></li>
+                    <li><a href="#"><img src="images/partner.png" alt="partner">
+                        </a></li>
+                    <li><a href="#"><img src="images/partner.png" alt="partner">
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <footer class="container-fluid">
         <div class="logo-left mt-4">
             <img src="images/logo.png" alt="logo-left">
         </div>
         <div class="text-right">
-            <p class="copyright col-sm-12 col-md">
+            <p class="copyright col-sm-12 col-md black-color">
                 This is a whole bunch of stuff<br>
                 &copy; 2020 TUKUZA WORSHIP EXPERIENCE
             </p>
         </div>
-
-
-
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

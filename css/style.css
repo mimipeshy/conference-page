@@ -1,27 +1,29 @@
 :root {
-    --main-color: #EC5242;
-    --black: #272a31;
-    --grey: #D3D3D3;
-    --font-family: 'Lato',
-        sans-serif;
-    --white: #fff;
+  --main-color: #ec5242;
+  --black: #272a31;
+  --grey: #d3d3d3;
+  --font-family:
+    'Lato',
+    sans-serif;
+  --white: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: var(--main-color);
+  text-decoration: none;
+  color: var(--main-color);
 }
-body{
-    font-family: var(--font-family);
-    
+
+body {
+  font-family: var(--font-family);
 }
+
 a:hover {
-    text-decoration: none;
-    color: var(--main-color);
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 h1 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .fab,
@@ -29,281 +31,309 @@ h1 {
 .top-navbar,
 .event-info h1,
 .event-info h2 {
-    color: var(--white);
-
+  color: var(--white);
 }
 
 .fab,
 .nav-text {
-    padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .main-color {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .black-color {
-    color: var(--black);
+  color: var(--black);
 }
 
 .white-color {
-    color: var(--white);
+  color: var(--white);
+}
+
+.font {
+  font-family: 'Shojumaru',
+    cursive;
 }
 
 .event p,
 .date {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 .top-navbar {
-    background-color: var(--black);
-    justify-content: flex-end;
-    height: 60px;
-    align-items: center;
-    padding-top: 30px;
-    font-size: 15px;
+  background-color: var(--black);
+  justify-content: flex-end;
+  height: 60px;
+  align-items: center;
+  padding-top: 30px;
+  font-size: 15px;
 }
 
 .bottom-navbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    height: 40%;
-    width: 40%;
+  height: 40%;
+  width: 40%;
 }
 
 .nav-link {
-    font-size: 15px;
-    color: var(--black);
+  font-size: 15px;
+  color: var(--black);
 }
 
 .main-banner {
-    background-color: #fff;
-    min-height: 80vh;
+  background-image: url(../images/png-transparent-curve-orbit-s-angle-text-orange.png) cover no-repeat;
+  /* background-color: #fff; */
+  min-height: 80vh;
 }
 
 .event-container {
-    width: 50%;
-    border: 3px solid var(--black);
+  width: 50%;
+  border: 3px solid var(--black);
 }
 
 .about-container {
-    width: 60%;
-    border: 3px solid var(--black);
-    align-items: center;
+  width: 60%;
+  border: 3px solid var(--black);
+  align-items: center;
 }
 
 .date {
-    font-size: 12px;
-
+  font-size: 12px;
 }
 
 .countdown {
-    background-color: var(--black);
-    margin: 0 auto;
-    padding: 0.5rem;
-    text-align: center;
+  background-color: var(--black);
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .count,
 h4 {
-    display: inline-block;
-    font-size: 1.2em;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-    color: var(--main-color);
+  display: inline-block;
+  font-size: 1.2em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: var(--main-color);
 }
 
 li span {
-    display: block;
-    font-size: 2.5rem;
-    color: var(--main-color);
+  display: block;
+  font-size: 2.5rem;
+  color: var(--main-color);
 }
 
-
 .section h1 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .partner-list h2,
 .countdown a,
 .activities h4 {
-    color: var(--main-color);
-    font-size: 18px;
-    text-align: center;
+  color: var(--main-color);
+  font-size: 18px;
+  text-align: center;
 }
 
 .card-columns h1 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .main-program {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/production/images/steel.png);
-    background-color: #272a31;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/blzck_bg.jpg);
+  background-color: #272a31;
+  color: #fff;
 }
 
 .main-program .card {
-    background-color: black;
-    width: 50%;
-    margin: 10px;
+  background-color: var(--black);
+  width: 75%;
+  margin: 10px;
 }
 
 .fas {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .round-border {
-    /* border-bottom: 2px solid #ec5242; */
-    width: 5rem;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(236, 82, 66);
-    border-image: initial
+  /* border-bottom: 2px solid #ec5242; */
+  width: 5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(236, 82, 66);
+  border-image: initial;
 }
 
 .underline {
-    width: 3rem;
-    margin-left: 425px;
-    border: 1px solid var(--main-color);
+  width: 3rem;
+  margin-left: 425px;
+  border: 1px solid var(--main-color);
 }
 
 .guest-title h5 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .small-underline {
-    width: 1.5rem;
-    justify-content: center;
-    border: 1px solid var(--grey);
+  width: 1.5rem;
+  justify-content: center;
+  border: 1px solid var(--grey);
 }
 
 .guests {
-    font-size: 12px;
-    color: var(--black);
+  font-size: 12px;
+  align-items: center;
+  background-color: #fff;
+  color: #272a31;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .guest-info h3 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .guest-info p:first-of-type {
-    font-size: 12px;
-    color: var(--main-color);
-    font-style: italic;
+  font-size: 12px;
+  color: var(--main-color);
+  font-style: italic;
 }
 
 .guest-profile {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-/* .card {
-    margin: 20px;
-    height: 30vh;
-} */
-
 .tickets-page {
-    background-color: var(--grey);
-    height: 70vh;
+  background-color: var(--grey);
+  height: 70vh;
 }
 
 .ticket-area {
-    display: grid;
-    grid-template-columns: 2fr;
+  display: grid;
+  grid-template-columns: 2fr;
 }
 
 button {
-    background-color: var(--main-color);
-    padding: 15px;
-    border: none;
-    border-radius: 30px;
-    color: var(--white);
-}
-.border-top{
-    border-top: 3px solid black;
-}
-.logo-box{
-    border:1px solid  #272a31 !important;
-
-}
-.concert-column .card {
-    margin-bottom: .75rem;
+  background-color: var(--main-color);
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  color: var(--white);
 }
 
-.concert-card {
-    max-width: 300px;
-    color: #272a31;
+.border-top {
+  border-top: 3px solid black;
 }
+
+.logo-box {
+  border: 1px solid #272a31 !important;
+}
+
+.concert-column {
+  margin-bottom: 0.75rem;
+  padding: 40px;
+}
+
+.card-header .concert-card {
+  max-width: 300px;
+  color: #272a31;
+  margin: 40px;
+}
+
 .card-img-overlay {
-    background: #ec5242;
-    opacity: 0.7;
+  background: var(--main-color);
+  opacity: 0.5;
 }
+
+.main-section h1,
+.previous-concerts h1 {
+  font-size: 22px;
+  color: var(--black);
+}
+
 footer .logo-left img {
-    align-items: left;
-    height: 50px;
+  align-items: left;
+  height: 50px;
 }
 
 .back {
-    background-color: var(--black);
-    margin: 0 auto;
-    padding: 0.5rem;
+  background-color: var(--black);
+  margin: 0 auto;
+  padding: 0.5rem;
 }
 
 footer .copyright {
-    font-size: 14px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 22px;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 22px;
 }
 
 .partner ul img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-@media screen and (max-width:769px) {
-    .top-navbar {
-        display: none
-    }
+@media screen and (min-width: 576px) {
+  .top-navbar {
+    display: none;
+  }
 
-   
 }
 
-@media screen and (min-width:992px){ 
-.container{
+@media screen and (min-width: 768px) {
+  .top-navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
     max-width: 960px;
-}
-@media screen and (min-width:1024px) {
+  }
 
-    .main-program,
-    .activities {
-        padding: 65px;
-        align-items: center;
-    }
+  .top-navbar {
+    display: none;
+  }
 
-    .guests {
-        width: 50%;
-        margin-left: 350px;
-        margin-right: 350px;
-
-    }
-    .card-img-overlay {
-        display: block;
-    }
+  .card-group {
+    padding: 50px;
+  }
 }
 
-/*helper classes*/
+@media screen and (min-width: 1024px) {
+
+  .main-program,
+  .activities {
+    padding: 65px;
+    align-items: center;
+  }
+
+  .guest-artists {
+    width: 75%;
+  }
+
+}
+
+/* helper classes */
 .tc {
-    text-align: center;
+  text-align: center;
+}
+
+.jc {
+  justify-content: center;
 }
