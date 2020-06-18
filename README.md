@@ -13,7 +13,7 @@ This project consists of building a webpage using images as a background and add
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://mimipeshy.github.io/conference-page/)
 
 
 ## Getting Started
