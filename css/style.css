@@ -8,12 +8,7 @@
   --white: #fff;
 }
 
-a {
-  text-decoration: none;
-  color: var(--main-color);
-}
-
-body {
+html {
   font-family: var(--font-family);
 }
 
@@ -22,16 +17,22 @@ a:hover {
   color: var(--main-color);
 }
 
-h1 {
-  font-size: 12px;
+a {
+  text-decoration-color: var(--white);
 }
-main{
+
+h1 {
+  font-size: 20px;
+}
+
+main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .fab,
 .nav-text,
 .top-navbar,
@@ -58,13 +59,22 @@ main{
 }
 
 .font {
-  font-family: 'Shojumaru',
+  font-family:
+    'Shojumaru',
     cursive;
+}
+
+.lato {
+  font-family: var(--font-family);
 }
 
 .event p,
 .date {
   font-family: var(--font-family);
+}
+
+.date p {
+  font-size: 16px;
 }
 
 .top-navbar {
@@ -93,14 +103,18 @@ main{
   color: var(--black);
 }
 
+.navbar-light .toggler {
+  color: rgb(0, 0, 0.2);
+  border-color: red;
+}
+
 .main-banner {
-  background-image: url(../images/png-transparent-curve-orbit-s-angle-text-orange.png) cover no-repeat;
-  /* background-color: #fff; */
-  min-height: 80vh;
+  background-color: #fff;
+  max-height: 80vh;
 }
 
 .event-container {
-  width: 50%;
+  width: 100%;
   border: 3px solid var(--black);
 }
 
@@ -115,7 +129,7 @@ main{
 }
 
 .countdown {
-  background-color: var(--black);
+  background-image: url(../images/blzck_bg.jpg);
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
@@ -153,12 +167,12 @@ li span {
   font-size: 18px;
 }
 
-.main-program {
+.main-program,
+.partners {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../images/blzck_bg.jpg);
-  background-color: #272a31;
+  background-image: url(../images/2.png);
   color: #fff;
 }
 
@@ -171,13 +185,16 @@ li span {
 .fas {
   color: var(--main-color);
 }
-.border-bottom{
+
+.border-bottom {
   border-bottom: 1px solid #272a31;
 }
+
 .border-right,
-.border-left{
+.border-left {
   border-bottom: 1px solid #272a31;
 }
+
 .round-border {
   width: 5rem;
   border-width: 2px;
@@ -188,12 +205,16 @@ li span {
 
 .underline {
   width: 3rem;
-  margin-left: 425px;
-  border: 1px solid var(--main-color);
+  border-bottom: 4px solid var(--main-color);
+  align-content: center;
 }
 
 .guest-title h5 {
   font-size: 18px;
+}
+
+.guest-title {
+  width: 10%;
 }
 
 .small-underline {
@@ -202,8 +223,11 @@ li span {
   border: 1px solid var(--grey);
 }
 
-.guests {
-  font-size: 12px;
+.guests,
+.previous-concerts,
+.theme-concert,
+.tickets-page {
+  font-size: 15px;
   align-items: center;
   background-color: #fff;
   color: #272a31;
@@ -229,15 +253,16 @@ li span {
 
 .tickets-page {
   background-color: var(--grey);
-  height:70vh;
+  
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap:10px;
+  grid-template-rows: 1fr;
+  gap: 10px;
 }
-button {
+
+.get-ticket {
   background-color: var(--main-color);
   padding: 15px;
   border: none;
@@ -251,11 +276,17 @@ button {
 
 .logo-box {
   border: 1px solid #272a31 !important;
+  max-width: 300px;
+  align-items: center;
 }
-
+.logo-box img{
+  width: 250px;
+  height: 200px;;
+}
 .concert-column {
   margin-bottom: 0.75rem;
   padding: 40px;
+  margin-right: 9rem;
 }
 
 .card-header .concert-card {
@@ -266,35 +297,42 @@ button {
 
 .card-img-overlay {
   background: var(--main-color);
-  opacity: 0.5;
+  opacity: 0.7;
+  color: white;
 }
 
 .main-section h1,
-.previous-concerts h1 {
-  font-size: 22px;
+.previous-concerts h1,
+.theme-concert h1 {
+  font-size: 26px;
 }
- .main-section{
-   background-color: #fff;
-   color: #ec5242;
-   
- }
+
+.main-section {
+  background-color: #fff;
+  color: #ec5242;
+}
+
 footer .logo-left img {
-  align-items: left;
-  height: 50px;
+  align-items: flex-start;
+  height: 70px;
+  width: 70px;
 }
 
 .back {
   background-color: var(--black);
   margin: 0 auto;
   padding: 0.5rem;
+  justify-content: start; 
+  align-items: center;
 }
 
 footer .copyright {
   font-size: 14px;
   line-height: 12px;
   text-transform: uppercase;
-  color: var(--white);
   margin-bottom: 22px;
+  justify-content: flex-end;
+
 }
 
 .partner ul img {
@@ -306,31 +344,49 @@ footer .copyright {
   .top-navbar {
     display: none;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
 
 }
 
 @media screen and (min-width: 768px) {
-  .top-navbar {
+  .top-navbar,
+  .logo {
     display: none;
   }
+   .tickets-page {
+     height: 100vh;
+   }
+ 
 }
 
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 500px;
+    height: 20vh;
   }
 
   .top-navbar {
     display: none;
   }
 
-  .card-group {
-    padding: 50px;
+  .wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
   }
+
+  .tickets-page {
+    height: 89vh;
+  }
+   
 }
 
 @media screen and (min-width: 1024px) {
-
   .main-program,
   .activities {
     padding: 65px;
@@ -341,8 +397,27 @@ footer .copyright {
     width: 75%;
   }
 
-}
+  .event-container {
+    width: 50%;
+  }
 
+  .logo {
+    display: inline-block;
+    height: 20%;
+    width: 20%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .tickets-page {
+    height: 50vh;
+  }
+ 
+}
 /* helper classes */
 .tc {
   text-align: center;
