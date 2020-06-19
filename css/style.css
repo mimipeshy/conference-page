@@ -110,7 +110,7 @@ main {
 
 .main-banner {
   background-color: #fff;
-  max-height: 80vh;
+  height: 60vh;
 }
 
 .event-container {
@@ -132,6 +132,7 @@ main {
   background-image: url(../images/blzck_bg.jpg);
   margin: 0 auto;
   padding: 0.5rem;
+  height: 35vh;
   text-align: center;
 }
 
@@ -253,7 +254,7 @@ li span {
 
 .tickets-page {
   background-color: var(--grey);
-  
+
 }
 
 .wrapper {
@@ -279,10 +280,13 @@ li span {
   max-width: 300px;
   align-items: center;
 }
-.logo-box img{
+
+.logo-box img {
   width: 250px;
-  height: 200px;;
+  height: 200px;
+  ;
 }
+
 .concert-column {
   margin-bottom: 0.75rem;
   padding: 40px;
@@ -312,27 +316,23 @@ li span {
   color: #ec5242;
 }
 
-footer .logo-left img {
-  align-items: flex-start;
-  height: 70px;
-  width: 70px;
-}
-
 .back {
   background-color: var(--black);
   margin: 0 auto;
   padding: 0.5rem;
-  justify-content: start; 
+  justify-content: start;
   align-items: center;
 }
 
 footer .copyright {
-  font-size: 14px;
-  line-height: 12px;
-  text-transform: uppercase;
-  margin-bottom: 22px;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: rgb(39, 42, 49);
+}
 
+footer .copyright span b {
+  color: #f42;
 }
 
 .partner ul img {
@@ -340,10 +340,23 @@ footer .copyright {
   height: 100px;
 }
 
+.sticky-top {
+
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+footer .footer-container {
+  justify-content: start;
+  align-items: center;
+}
+
 @media screen and (min-width: 576px) {
   .top-navbar {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -351,17 +364,30 @@ footer .copyright {
     display: none;
   }
 
+  .countdown {
+    height: 42vh;
+
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  footer {
+
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
+
   .top-navbar,
   .logo {
     display: none;
   }
-   .tickets-page {
-     height: 100vh;
-   }
- 
+
 }
 
 @media screen and (max-width: 992px) {
@@ -381,12 +407,13 @@ footer .copyright {
   }
 
   .tickets-page {
-    height: 89vh;
+    height: 100vh;
   }
-   
+
 }
 
 @media screen and (min-width: 1024px) {
+
   .main-program,
   .activities {
     padding: 65px;
@@ -416,8 +443,12 @@ footer .copyright {
   .tickets-page {
     height: 50vh;
   }
- 
+
+  footer .footer-container{ 
+    min-width: 70%;
+  }
 }
+
 /* helper classes */
 .tc {
   text-align: center;
