@@ -353,11 +353,11 @@ footer .footer-container {
 }
 
 @media screen and (min-width: 576px) {
-  .top-navbar {
+  .top-navbar,
+  .logo {
     display: none;
   }
- 
-
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -369,6 +369,9 @@ footer .footer-container {
     height: 42vh;
 
   }
+.main-banner {
+  height: 101vh;
+}
 
 }
 
@@ -416,6 +419,9 @@ footer .footer-container {
 
 @media screen and (min-width: 1024px) {
 
+  .main-banner {
+    height: 70vh;
+  }
   .main-program,
   .activities {
     padding: 65px;
