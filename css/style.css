@@ -338,12 +338,6 @@ footer .copyright span b {
   height: 100px;
 }
 
-.sticky-top {
-  position: sticky;
-  top: 0;
-  z-index: 1020;
-}
-
 footer .footer-container {
   justify-content: start;
   align-items: center;
@@ -354,6 +348,7 @@ footer .footer-container {
   .logo {
     display: none;
   }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -364,9 +359,12 @@ footer .footer-container {
   .countdown {
     height: 42vh;
   }
-
+`
   .main-banner {
     height: 101vh;
+  }
+  .tickets-page {
+    height: 90vh;
   }
 }
 
@@ -375,6 +373,9 @@ footer .footer-container {
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
+  }
+  .tickets-page {
+    height: 90vh;
   }
 }
 
@@ -401,8 +402,9 @@ footer .footer-container {
     gap: 10px;
   }
 
-  .tickets-page {
-    height: 100vh;
+  .tickets-page,
+  .previous-concerts {
+    height: 140vh;
   }
 }
 
