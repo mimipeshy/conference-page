@@ -12,13 +12,13 @@ html {
   font-family: var(--font-family);
 }
 
+a {
+  text-decoration-color: var(--white);
+}
+
 a:hover {
   text-decoration: none;
   color: var(--main-color);
-}
-
-a {
-  text-decoration-color: var(--white);
 }
 
 h1 {
@@ -254,7 +254,6 @@ li span {
 
 .tickets-page {
   background-color: var(--grey);
-
 }
 
 .wrapper {
@@ -284,7 +283,6 @@ li span {
 .logo-box img {
   width: 250px;
   height: 200px;
-  ;
 }
 
 .concert-column {
@@ -341,7 +339,6 @@ footer .copyright span b {
 }
 
 .sticky-top {
-
   position: sticky;
   top: 0;
   z-index: 1020;
@@ -357,7 +354,6 @@ footer .footer-container {
   .logo {
     display: none;
   }
-  
 }
 
 @media screen and (max-width: 767px) {
@@ -367,32 +363,26 @@ footer .footer-container {
 
   .countdown {
     height: 42vh;
-
   }
-.main-banner {
-  height: 101vh;
-}
 
+  .main-banner {
+    height: 101vh;
+  }
 }
 
 @media screen and (max-width: 769px) {
   footer {
-
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
   }
-  
-
 }
 
 @media screen and (min-width: 768px) {
-
   .top-navbar,
   .logo {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -414,14 +404,13 @@ footer .footer-container {
   .tickets-page {
     height: 100vh;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
-
   .main-banner {
     height: 70vh;
   }
+
   .main-program,
   .activities {
     padding: 65px;
@@ -452,7 +441,7 @@ footer .footer-container {
     height: 50vh;
   }
 
-  footer .footer-container{ 
+  footer .footer-container {
     min-width: 70%;
   }
 }
