@@ -110,7 +110,7 @@ main {
 
 .main-banner {
   background-color: #fff;
-  height: 100vh;
+  height: 80vh;
 }
 
 .event-container {
@@ -356,6 +356,7 @@ footer .footer-container {
   .top-navbar {
     display: none;
   }
+ 
 
 }
 
@@ -378,6 +379,7 @@ footer .footer-container {
     justify-content: stretch;
     align-items: stretch;
   }
+  
 
 }
 
@@ -393,7 +395,7 @@ footer .footer-container {
 @media screen and (max-width: 992px) {
   .container {
     max-width: 500px;
-    height: 20vh;
+    height: 65vh;
   }
 
   .top-navbar {
