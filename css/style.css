@@ -113,7 +113,7 @@ li {
 }
 
 .main-banner {
-  background: url(../images/five.png) top right no-repeat;
+  background: url(../images/five.png) center right no-repeat;
   background-color: #fff;
   height: 80vh;
 }
@@ -358,6 +358,7 @@ footer .footer-container {
 
   .main-banner {
     height: 130vh;
+    background: url(../images/five.png) bottom  no-repeat;
   }
   
 }
