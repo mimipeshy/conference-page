@@ -32,7 +32,8 @@ main {
   justify-content: center;
   align-items: center;
 }
-li{
+
+li {
   list-style: none;
 }
 
@@ -161,14 +162,14 @@ li span {
 .main-section h1,
 .banner-info h1,
 .previous-concerts h1,
-.theme-concert h1
- {
+.theme-concert h1 {
   font-size: 3rem;
 }
 
-.tickets-page h1{
+.tickets-page h1 {
   font-size: 22px;
 }
+
 .partner-list h2,
 .countdown a,
 .activities h4 {
@@ -196,19 +197,9 @@ li span {
   color: var(--main-color);
 }
 
-.border{
-  border:3px solid red;
+.border {
+  border: 3px solid red;
 }
-/* .border-bottom {
-  border-bottom: 1px solid #272a31;
-}
-
-.border-right{
-  border-right: 1px solid black;
-}
-.border-left {
-  border-left: 1px solid black;
-} */
 
 .round-border {
   width: 5rem;
@@ -277,7 +268,7 @@ li span {
 }
 
 .rounded {
-  border-radius: .25rem !important;
+  border-radius: 0.25rem !important;
 }
 
 .border-top {
@@ -352,7 +343,8 @@ footer .footer-container {
   .logo {
     display: none;
   }
-  
+
+ 
 }
 
 @media screen and (max-width: 767px) {
@@ -361,12 +353,14 @@ footer .footer-container {
   }
 
   .countdown {
-    height: 42vh;
+    height: 90vh;
   }
+
   .main-banner {
-    height: 101vh;
+    height: 120vh;
   }
-  }
+  
+}
 
 @media screen and (max-width: 769px) {
   footer {
@@ -392,7 +386,7 @@ footer .footer-container {
   .top-navbar {
     display: none;
   }
-    
+
   .previous-concerts {
     height: 140vh;
   }
