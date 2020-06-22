@@ -109,6 +109,7 @@ main {
 }
 
 .main-banner {
+  background: url(../images/five.png) top right no-repeat;
   background-color: #fff;
   height: 80vh;
 }
@@ -359,7 +360,6 @@ footer .footer-container {
   .countdown {
     height: 42vh;
   }
-`
   .main-banner {
     height: 101vh;
   }
