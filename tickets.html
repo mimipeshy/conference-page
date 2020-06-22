@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tukuza Worship Experience</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="fn.js" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,900&display=swap"
@@ -29,7 +28,7 @@
         </div>
     </header>
     <nav class="bottom-navbar navbar-light navbar-expand-lg">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="praise-logo" class="logo ml-3"></a>
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="praise-logo" class="logo ml-3"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,41 +47,48 @@
             </ul>
         </div>
     </nav>
-    <section class="tickets-page container tc mt-5 mb-5">        
+    <main class="container-fluid  p-3 bg-light">
+        <section class="tickets-page container tc mt-0 mb-3 p-3">
             <h1>Select Tickets</h1>
-        <div class="underline mb-3"></div>
-        <div class="wrapper">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-text">Regular Ticket</h5>
-                    <h5>KES 1000
-                    </h5>
-                    <P>Grab your Regular ticket to avoid last minute rush.</P>
-                    <button class="get-ticket">BUY TICKET</button>
+            <div class="underline mb-3"></div>
+            <section class="container mt-4 rounded p-0">
+                 <div class="ticket-types ">
+                    <div>
+                        <div class="d-flex jc tc align-items-center p-2 border">
+                        <h5>Ticket</h5>
+                        </div>
+                        <div class="d-flex jc align-items-center p-2 border">
+                            <h5>Regular</h5>
+                        </div>
+                        <div class="d-flex jc align-items-center p-2 border">
+                            <h5>VIP</h5>
+                        </div>
+                    </div>
+                    <div><div class="d-flex jc tc align-items-center p-2 border">
+                        Early Bird
+                    </div>
+                        <div class="radio d-flex jc tc align-items-center p-2 border main-color">
+                            <label><input type="radio" name="optradio" checked> KES 500</label>
+                        </div>
+                        <div class="radio d-flex jc tc align-items-center p-2 border main-color">
+                            <label><input type="radio" name="optradio" checked> KES 1000</label>
+                        </div>
+                    </div>
+                     <div>
+                          <div class="d-flex jc tc align-items-center p-2 border">
+                              At the Gate
+                          </div>
+                         <div class="radio d-flex jc tc align-items-center p-2 border main-color">
+                             <label><input type="radio" name="optradio" checked> KES 1000</label>
+                         </div>
+                         <div class="radio d-flex jc tc align-items-center p-2 border main-color">
+                             <label><input type="radio" name="optradio" checked> KES 1500</label>
+                         </div>
+                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-text">VIP Ticket</h5>
-                    <h5>KES 2000
-                    </h5>
-                    <P>Grab your VIP ticket to avoid last minute rush.</P>
-                    <button class="get-ticket">BUY TICKET</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-text">VVIP Ticket</h5>
-                    <h5>KES 3000
-                    </h5>
-                    <P>Grab your VVIP ticket to avoid last minute rush.</P>
-                    <button class="get-ticket">BUY TICKET</button>
-                </div>
-            </div>
-
-        </div>
-        
-    </section>
+            </section>           
+        </section>
+    </main>
     <footer class="py-4 px-3 px-md-5 d-flex back">
         <section class="footer-container d-flex font">
             <img src="images/logoz.png" alt="logo-left">
@@ -95,7 +101,7 @@
         </section>
 
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
