@@ -113,7 +113,7 @@ li {
 }
 
 .main-banner {
-  background: url(../images/three.png) top no-repeat;
+  background: url(../images/five.png) top right no-repeat;
   background-color: #fff;
   height: 80vh;
 }
@@ -353,7 +353,7 @@ footer .footer-container {
   }
 
   .countdown {
-    height: 90vh;
+    height: 100vh;
   }
 
   .main-banner {
@@ -375,6 +375,9 @@ footer .footer-container {
   .logo {
     display: none;
   }
+   .countdown {
+     height: 50vh;
+   }
 }
 
 @media screen and (max-width: 992px) {
@@ -390,6 +393,7 @@ footer .footer-container {
   .previous-concerts {
     height: 140vh;
   }
+ 
 }
 
 @media screen and (min-width: 1024px) {
