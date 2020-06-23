@@ -397,11 +397,6 @@ footer .footer-container {
   .top-navbar {
     display: none;
   }
-
-  /* .previous-concerts {
-    height: 160vh;
-  } */
- 
 }
 
 @media screen and (min-width: 1024px) {
