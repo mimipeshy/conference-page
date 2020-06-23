@@ -343,8 +343,6 @@ footer .footer-container {
   .logo {
     display: none;
   }
-
- 
 }
 
 @media screen and (max-width: 767px) {
@@ -360,7 +358,6 @@ footer .footer-container {
     height: 130vh;
     background: url(../images/five.png) bottom  no-repeat;
   }
-  
 }
 
 @media screen and (max-width: 769px) {
@@ -369,6 +366,7 @@ footer .footer-container {
     justify-content: stretch;
     align-items: stretch;
   }
+
   .previous-concerts {
     height: 140vh;
   }
@@ -379,13 +377,14 @@ footer .footer-container {
   .logo {
     display: none;
   }
-   .countdown {
-     height: 50vh;
-   }
-    .previous-concerts {
-      height: 90vh;
-    }
-    
+
+  .countdown {
+    height: 50vh;
+  }
+
+  .previous-concerts {
+    height: 90vh;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -423,9 +422,11 @@ footer .footer-container {
     height: 20%;
     width: 20%;
   }
-  .previous-concerts{
+
+  .previous-concerts {
     height: 60vh;
   }
+
   footer .footer-container {
     min-width: 70%;
   }
