@@ -1,9 +1,11 @@
-# Newsweek
-A bootstrap clone of the newsweek website
+# Conference Page
+HTML & CSS capstone project: Conference Page
 
 # Screenshot
 
-This project consists of building a webpage using images as a background and adding gradients to elements.
+![screenshot](./screenshot.PNG)
+
+This project is based on an online website for a conference. I customized it to a christian concert with three pages, i.e homepage, about us and ticket page.
 
 ## Built With
 
@@ -13,7 +15,7 @@ This project consists of building a webpage using images as a background and add
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://mimipeshy.github.io/conference-page/)
 
 
 ## Getting Started
@@ -30,11 +32,11 @@ Type `git init` in your local terminal
 
 ### Install
 
-Clone the repository to your local machine `https://github.com/mimipeshy/Newsweek.git ` 
+Clone the repository to your local machine `https://github.com/mimipeshy/conference-page.git ` 
 
 ### Usage
 
-Cd into the repository `cd Newsweek`
+Cd into the repository `cd conference-page`
 
 Open the `index.html` file and run it with any browser of your choice
 
