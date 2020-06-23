@@ -369,6 +369,9 @@ footer .footer-container {
     justify-content: stretch;
     align-items: stretch;
   }
+  .previous-concerts {
+    height: 140vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -379,6 +382,10 @@ footer .footer-container {
    .countdown {
      height: 50vh;
    }
+    .previous-concerts {
+      height: 90vh;
+    }
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -391,9 +398,9 @@ footer .footer-container {
     display: none;
   }
 
-  .previous-concerts {
-    height: 140vh;
-  }
+  /* .previous-concerts {
+    height: 160vh;
+  } */
  
 }
 
@@ -421,7 +428,9 @@ footer .footer-container {
     height: 20%;
     width: 20%;
   }
-
+  .previous-concerts{
+    height: 60vh;
+  }
   footer .footer-container {
     min-width: 70%;
   }
